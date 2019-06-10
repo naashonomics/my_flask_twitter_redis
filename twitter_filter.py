@@ -4,10 +4,10 @@ from textblob import TextBlob
 from tweet_store import TweetStore
 import json
 
-consumer_key = '9zgEypSoFasMzogQQzgR18GBh'
-consumer_secret = 'yU4WLSSKoMequbElQfV5KcSgUzgR4undNpsyyO2hmyyKz1Tppn'
-access_token = '881604271-n745pa7VRXFyjk2ZsXfsYFecxWUDGL8vURLERz4S'
-access_token_secret = '1KuwvFs8ff1xaPnAmVsbJPynGsh1mxzPmqzII3Yuobdck'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
